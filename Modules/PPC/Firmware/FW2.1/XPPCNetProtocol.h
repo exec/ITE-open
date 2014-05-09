@@ -205,9 +205,10 @@ void networkUpdateDeviceSpecific(NET_PACKETHEADER *pNetHdr,UCHAR input_command, 
 			// We add this here just to force all rails
 			{
             	char i;
-                for (i = 0; i < NUM_OF_RAILS; i++)
+                for (i = 0; i < NUM_OF_BATTERIES; i++)
                 {
-            		batChargeState.charge_rail_enabled[i] = 1;
+            		batChargeState.bat_present[i] = 1;
+                    batChargeState.charge_rail_enabled[i] = 1;
 				}
             }                    	
         
