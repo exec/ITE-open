@@ -1,0 +1,7 @@
+Firmware for Primary Power Controller
+
+Doc: http://wiki.endrobene.org/Primary_Power_Controller
+
+Device version: PPC V2
+Board version: V2.5
+Firmware version: V2.1
